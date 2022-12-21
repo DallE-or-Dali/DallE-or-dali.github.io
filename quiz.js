@@ -313,22 +313,22 @@ function resultsText(state) {
 
   switch (true) {
     case (ratio === 1):
-      text = "Wow&mdash;perfect score!";
+      text = "Wow&mdash;perfect score! Are you sure you're not an AI?";
       break;
     case (ratio > 0.9):
-      text = "Awesome job, you got most of them right.";
+      text = "Awesome job, you got most of them right. You know your AI from your human art.";
       break;
     case (ratio > 0.60):
-      text = "Pretty good, we'll say that's a pass.";
+      text = "Pretty good, you got them right most of the time.";
       break;
     case (ratio > 0.5):
-      text = "Well, at least you got half of them right&hellip;";
+      text = "You might as well have guessed.";
       break;
     case (ratio < 0.5 && ratio !== 0):
-      text = "Looks like this was a tough one, better luck next time.";
+      text = "Does AI art look like human art and human art like AI art to you?";
       break;
     case (ratio === 0):
-      text = "Yikes, none correct. Well, maybe it was rigged?";
+      text = "You might as well have gotten them all right, considering there's only two options.";
       break;
   }
   return text;
@@ -341,7 +341,7 @@ function tweet(state, opts) {
   var body = (
     "I got " + state.correct +
     " out of " + state.total +
-    " on @taxpolicycenter’s \"" + opts.title +
+    " on the \"" + opts.title +
     "\" quiz. Test your knowledge here: " + opts.url
   );
 
