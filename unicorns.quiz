@@ -12,19 +12,19 @@ url: http://dalle-or-dali.github.io
 // the number signifies the question order,
 // meaning questions can be placed in random order
 // within the file
-Was this artwork made by an AI or a human?
+1) Was this artwork made by an AI or a human?
   * AI
   - Human
   This is a "Classic oil painting" by Dall-E 2.
   (image) img/trio-with-flowers.png
   
-Was this artwork made by an AI or a human?
+2) Was this artwork made by an AI or a human?
   * AI
   - Human
   This is a "Renaissance style painting."
   (image) img/downcast-woman.png
   
-Was this artwork made by an AI or a human?
+3) Was this artwork made by an AI or a human?
   * AI
   - Human
   This is a "Renaissance style painting of landscape" I generated last night.
