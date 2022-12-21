@@ -417,6 +417,6 @@
       "prompt": "Was this artwork made by an AI or a human?"
     }
   ],
-  "title": "Can you tell the difference between AI art and art made by a human artist?",
+  "title": "Can you tell the difference between AI and human-made art?",
   "url": "http://dalle-or-dali.github.io"
 }
