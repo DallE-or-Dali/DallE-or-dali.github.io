@@ -175,7 +175,7 @@ var $indicators = $('<ol>')
       if (correct) {
         opts = $.extend(opts, {
           title: "Nice!",
-          text: "Well done" + (
+          text: "Well done." + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
               question.correct.text +
