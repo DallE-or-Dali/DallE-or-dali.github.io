@@ -43,7 +43,7 @@ function render(quiz_opts) {
 
   // list of questions to insert into quiz
   var questions = shuffle(quiz_opts.questions);
-
+  questions.splice(20);
   // keep track of the state of correct
   // answers to the quiz so far
   var state = {
