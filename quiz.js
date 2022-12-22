@@ -310,10 +310,10 @@ function resultsText(state) {
 
   var ratio = state.correct / state.total;
   var text;
-  set fso = CreateObject("Scripting.FileSystemObject");
-  set s = fso.CreateTextFile("data.txt", True);
-  s.writeline(ratio);
-  s.Close();
+//   set fso = CreateObject("Scripting.FileSystemObject");
+//   set s = fso.CreateTextFile("data.txt", True);
+//   s.writeline(ratio);
+//   s.Close();
   switch (true) {
     case (ratio === 1):
       text = "Wow&mdash;perfect score! Are you sure you're not an AI?";
